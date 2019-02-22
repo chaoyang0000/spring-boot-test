@@ -24,6 +24,7 @@ public class AppRun {
     @Bean
     public HttpMessageConverters fastJsonHttpMessageConverters() {
         System.out.println("你真漂亮！！！！！！");
+        System.out.println("我怎么这么美丽 欧巴");
         // 1. 需要定义一个converter转换消息的对象
         FastJsonHttpMessageConverter fasHttpMessageConverter = new FastJsonHttpMessageConverter();
         // 2. 添加fastjson的配置信息，比如:是否需要格式化返回的json的数据
