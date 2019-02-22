@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface UserDao {
     List<User> getAll();
+    system.out.println("woshigege")
 }
